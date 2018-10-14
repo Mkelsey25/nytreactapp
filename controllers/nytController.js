@@ -1,9 +1,6 @@
 const axios = require("axios");
 const db = require("../models");
 
-// Defining methods for the nytController
-
-// findAll searches the NYT API and returns only the entries we haven't already saved
 module.exports = {
   findAll: function(req, res) {
     const params = Object.assign(
