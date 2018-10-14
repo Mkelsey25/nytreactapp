@@ -1,11 +1,7 @@
 <h1>New York Times Article Search</h1>
-<h3>This is a MERN stack application that uses create-react-app and mongodb to search and pull articles from the New York Times API, and can save them to the database.</h3>
 
-<h4>Technologies Used: HTML5, CSS, Bootstrap.js, React.js, Node.js, Express.JS, MongoDB, Mongoose</h4>
-
-
-
-
+<h2>This is a MERN stack application that pulls articles from the New York Times API according to user query.</h2>
+<h3>Technologies Used: HTML5, CSS, Bootstrap.js, MongoDB, Mongoose, React, Node.js, Express.js, and JQuery.</h3>
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
