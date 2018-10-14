@@ -1,7 +1,10 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# Prepending a slash matches files only in the repository root.
+# You can prepend a pattern with a double asterisk to match directories anywhere in the repository.
+# An asterisk is a wildcard that matches zero or more characters. (*.env)
 
 # dependencies
-/node_modules
+node_modules/
 
 # testing
 /coverage
@@ -19,3 +22,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+yarn.lock
