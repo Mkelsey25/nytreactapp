@@ -3,7 +3,7 @@ import Jumbotron from "../../components/Jumbotron";
 import Card from "../../components/Card";
 import Form from "../../components/Form";
 import Article from "../../components/Article";
-import API from "../../utils/API";
+import API from "../../utils/api";
 import { Col, Row, Container } from "../../components/Grid";
 import { List } from "../../components/List";
 
