@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === "production") {
 app.use(routes);
 
 //connect to database
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/nytarticles").then(() => {
+mongoose.connect(process.env.MONGODB_URI).then(() => {
 console.log("Hey, I'm MongoDB. You're connected to me!");
 });
 
